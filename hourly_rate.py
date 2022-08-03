@@ -10,4 +10,4 @@ hrs = input("Enter Hours:")
 rate = input("Enter rate per hour:")
 
 output = float(hrs) * float(rate)
-print(output)
+print("Pay: {}".format(output))
